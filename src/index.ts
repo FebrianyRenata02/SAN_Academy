@@ -16,10 +16,10 @@ interface Lesson {
 }
 
 const lessons: Lesson[] = [
-    { id: 1, title: "Fundamental", duration: "07:57 menit", completed: true, summary: "Apa itu Komputer" },
-    { id: 2, title: "Menggunakan JQuery Selector", duration: "08:40 menit", completed: true, summary: "Cara menggunakan selector tag, id, dan class untuk memilih elemen HTML dengan cepat." },
-    { id: 3, title: "Bekerja dengan DOM di JQuery", duration: "07:41 menit", completed: false, summary: "Mempelajari cara membaca dan mengubah konten teks maupun HTML di dalam elemen." },
-    { id: 4, title: "Memanipulasi DOM di JQuery", duration: "17:20 menit", completed: false, summary: "Praktik langsung menambah, menghapus, dan memodifikasi atribut elemen web." }
+    { id: 1, title: "Fundamental", duration: "07:57 menit", completed: true, summary: "Fundamental Komputer" },
+    { id: 2, title: "Algoritma Komputer", duration: "08:40 menit", completed: true, summary: "Algoritma Dalam Komputer" },
+    { id: 3, title: "Pengertian & Sejarah Komputer", duration: "07:41 menit", completed: false, summary: "Apa itu Komputer & Sejarah nya" },
+    { id: 4, title: "Keuntungan & Kerugian", duration: "17:20 menit", completed: false, summary: "Keuntungan & Kerugian Sebelum dan Sesudah adanya Komputer" }
 ];
 
 app.get('/', (req: Request, res: Response) => {
