@@ -3,7 +3,7 @@ import path from 'path';
 
 const app = express();
 
-// Set EJS sebagai view engine dan pastikan path views mengarah ke folder yang benar
+// Set EJS sebagai view engine
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 
@@ -16,7 +16,7 @@ interface Lesson {
 }
 
 const lessons: Lesson[] = [
-    { id: 1, title: "Pendahuluan JQuery", duration: "07:57 menit", completed: true, summary: "Pengenalan dasar apa itu jQuery dan mengapa pustaka ini sangat membantu manipulasi DOM." },
+    { id: 1, title: "Apa itu Komputer", duration: "07:57 menit", completed: true, summary: "Pengertian ilmu & sejarah Komputer" },
     { id: 2, title: "Menggunakan JQuery Selector", duration: "08:40 menit", completed: true, summary: "Cara menggunakan selector tag, id, dan class untuk memilih elemen HTML dengan cepat." },
     { id: 3, title: "Bekerja dengan DOM di JQuery", duration: "07:41 menit", completed: false, summary: "Mempelajari cara membaca dan mengubah konten teks maupun HTML di dalam elemen." },
     { id: 4, title: "Memanipulasi DOM di JQuery", duration: "17:20 menit", completed: false, summary: "Praktik langsung menambah, menghapus, dan memodifikasi atribut elemen web." }
